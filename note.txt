@@ -1,0 +1,10 @@
+font-
+    roboto regular - 400
+    lato regular - 400
+    lato bold - 700
+
+color- 
+    body - #8e8e8e
+    headings- #333333
+
+padding bottom -

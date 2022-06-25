@@ -1,0 +1,106 @@
+/* Font Import */
+@font-face {
+    font-family: Roboto;
+    src: url('./../fonts/Roboto-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('./../fonts/Lato-Regular.ttf') format('ttf');
+    src: url('./../fonts/Lato-Bold.ttf') format('ttf');
+}
+
+/* Font Import */
+
+/* Common Css */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h5, h6, p, ul, li {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Common Css */
+
+/* Header Start */
+header {
+    padding: 20px 0;
+    font-family: "lato", sans-serif;
+}
+
+.c_nav {}
+
+.logo {}
+
+.logo h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.menu {}
+
+.menu ul li a {
+    text-transform: uppercase;
+    padding: 0 15px !important;
+    color: #8e8e8e !important;
+}
+
+.menu ul li a:hover, .nav-item .active {
+    color: #333333 !important;
+}
+
+.menu_icon:focus {
+    box-shadow: 0 0 1px;
+}
+.dm{
+    width: 300px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    padding: 5px 15px;
+}
+.dm[data-bs-popper] {
+    top: 40px;
+    left: -257px;
+}
+.s_btn{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+    border: none;
+}
+
+.s_btn:hover{
+    color: #333333;
+}
+.s_btn::after{
+    display: none;
+}
+.s_in{
+    border: none !important;
+    box-shadow: none !important;
+}
+.s_in:focus{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.s_icon{
+    padding: 5px 0;
+}
+
+/* Header End */
