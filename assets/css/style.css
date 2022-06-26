@@ -1,6 +1,7 @@
 /* Font Import */
 @font-face {
     font-family: Roboto;
+    src: url('./../fonts/Roboto-Light.ttf') format('ttf');
     src: url('./../fonts/Roboto-Regular.ttf') format('ttf');
 }
 
@@ -16,7 +17,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     color: #8e8e8e;
     margin: 0;
     padding: 0;
@@ -64,7 +65,8 @@ header {
 .menu_icon:focus {
     box-shadow: 0 0 1px;
 }
-.dm{
+
+.dm {
     width: 300px;
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -73,34 +75,196 @@ header {
     -o-border-radius: 0;
     padding: 5px 15px;
 }
+
 .dm[data-bs-popper] {
     top: 40px;
     left: -257px;
 }
-.s_btn{
+
+.s_btn {
     font-size: 16px;
     font-weight: 400;
     color: #8e8e8e;
     border: none;
 }
 
-.s_btn:hover{
+.s_btn:hover {
     color: #333333;
 }
-.s_btn::after{
+
+.s_btn::after {
     display: none;
 }
-.s_in{
-    border: none !important;
-    box-shadow: none !important;
-}
-.s_in:focus{
+
+.s_in {
     border: none !important;
     box-shadow: none !important;
 }
 
-.s_icon{
+.s_in:focus {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.s_icon {
     padding: 5px 0;
 }
 
 /* Header End */
+
+/* Slider Start */
+.slider {
+    background-image: url("./../img/slider.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    color: #fff;
+}
+
+.c_item {
+    padding: 200px 0;
+}
+
+.slider_h1 {
+    font-family: 'lato', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.slider_p {
+    padding: 45px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.c_btn {
+    padding: 15px 25px;
+    text-transform: uppercase;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    color: #333333;
+}
+
+.c_btn i {
+    padding-left: 15px;
+}
+
+.ccn, .ccp {
+    width: 6%;
+    top: 100%;
+    color: #333333;
+}
+
+.ccn {
+    left: 8%;
+}
+
+.ccn:focus, .ccn:hover, .ccp:focus, .ccp:hover {
+    color: #333333;
+}
+
+.ccni, .ccpi {
+    width: 4rem;
+    background: none;
+    text-transform: uppercase;
+}
+
+.ccpi::before {
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+    content: "\f100";
+}
+
+.ccni::after {
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+    content: "\f101";
+}
+
+/* Slider End */
+
+/* Services Start */
+.services {
+    padding-bottom: 100px;
+}
+
+.heading_text {}
+
+.line {
+    width: 2px;
+    height: 50px;
+    background-color: #333333;
+    margin-bottom: 30px !important;
+}
+
+.heading_text h2, .services_details h3 {
+    font-family: 'lato', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.heading_text p {
+    padding: 45px 0 90px 0;
+    line-height: 30px;
+}
+
+.services_border {
+    padding: 0 10px 25px 10px;
+    border: 1px solid #cccccc;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+}
+.services_border:hover {
+    border: 1px solid #333333;
+}
+.services_border:hover .services_icon i, .services_border:hover .s_btn{
+    color: #333333;
+}
+
+.services_icon {
+    position: absolute;
+}
+
+.services_icon i {
+    position: relative;
+    left: 85px;
+    bottom: 27px;
+    font-size: 60px;
+    background: #fff;
+    width: 80px;
+    display: block;
+    padding: 0px 10px;
+    height: 0%;
+}
+
+.services_details {}
+
+.services_details h3 {
+    padding: 70px 0 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hr_custom {
+    margin: 0 auto;
+    width: 70px;
+}
+
+.services_details p {
+    padding: 20px 0 25px;
+}
+
+.s_btn {
+    color: #8e8e8e;
+}
+
+/* Services End */

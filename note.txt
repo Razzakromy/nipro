@@ -8,3 +8,11 @@ color-
     headings- #333333
 
 padding bottom -
+
+slider- 
+xxl/xl/lg       md        sm/col
+padding top bottom - 200px  - 100px lg - 50px 
+slider p - 45px 
+
+services 
+padding bottom 100px  -  

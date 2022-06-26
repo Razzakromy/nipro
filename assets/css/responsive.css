@@ -1,31 +1,98 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-     /* Header */
-     header {
+
+    /* Header */
+    header {
         padding: 15px 0;
-        }
-     .logo h1 {
+    }
+
+    .logo h1 {
         font-size: 20px;
     }
-     .menu ul li a {
+
+    .menu ul li a {
         padding: 2px 0px !important;
     }
 
     .s_btn {
         padding: 0px 0;
     }
-    .s_icon{
+
+    .s_icon {
         padding: 5px 0;
     }
-    .dm{
+
+    .dm {
         width: 200px;
         padding: 2px 20px;
     }
+
     .dm[data-bs-popper] {
         top: -10px;
         left: 56px;
     }
 
+    /* Slider */
+    .c_item {
+        padding: 30px 0;
+    }
+
+    .slider {
+        min-height: 200px;
+    }
+
+    .slider_h1 {
+        font-size: 25px;
+    }
+
+    .slider_p {
+        padding: 20px 0;
+        line-height: 22px;
+    }
+
+    .c_btn {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .c_btn i {
+        padding-left: 5px;
+    }
+
+    .ccn, .ccp {
+        width: 20%;
+    }
+
+    .ccn {
+        left: 25%;
+    }
+
+    /* services */
+    .heading_text h2 {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .services_details h3 {
+        padding: 30px 0 15px;
+    }
+
+    .services_icon i {
+        left: 98px;
+        bottom: 18px;
+        font-size: 40px;
+    }
+
+    .branding, .uiux, .app, .web {
+        margin-top: 50px;
+    }
+    .heading_text p {
+        padding: 45px 0 30px 0;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -43,6 +110,60 @@
     .dm[data-bs-popper] {
         top: -10px;
         left: 80px;
+    }
+
+    /* Slider */
+    .c_item {
+        padding: 50px 0;
+    }
+
+    .slider {
+        min-height: 200px;
+    }
+
+    .slider_h1 {
+        font-size: 35px;
+    }
+
+    .slider_p {
+        padding: 20px 0;
+        line-height: 25px;
+    }
+
+    .c_btn {
+        padding: 10px 15px;
+    }
+
+    .c_btn i {
+        padding-left: 10px;
+    }
+
+    .ccn, .ccp {
+        width: 12%;
+    }
+
+    .ccn {
+        left: 15%;
+    }
+
+    /* services */
+    .heading_text h2 {
+        font-family: 'lato', sans-serif;
+        font-size: 25px;
+    }
+
+    .services_details h3 {
+        padding: 30px 0 15px;
+    }
+
+    .services_icon i {
+        left: 75px;
+        bottom: 18px;
+        font-size: 40px;
+    }
+
+    .app, .web {
+        margin-top: 50px;
     }
 }
 
@@ -63,10 +184,93 @@
         top: -10px;
         left: 80px;
     }
+
+    /* Slider */
+    .c_item {
+        padding: 50px 0;
+    }
+
+    .slider {
+        min-height: 200px;
+    }
+
+    .slider_h1 {
+        font-size: 40px;
+    }
+
+    .slider_p {
+        padding: 30px 0;
+        line-height: 25px;
+    }
+
+    .c_btn {
+        padding: 10px 15px;
+    }
+
+    .c_btn i {
+        padding-left: 10px;
+    }
+
+    .ccn, .ccp {
+        width: 9%;
+    }
+
+    .ccn {
+        left: 11%;
+    }
+
+    /* services */
+    .services_details h3 {
+        padding: 50px 0 20px;
+    }
+
+    .services_icon i {
+        left: 75px;
+        bottom: 22px;
+        font-size: 40px;
+    }
+
+    .services_icon i {
+        left: 118px;
+        font-size: 50px;
+    }
+
+    .app, .web {
+        margin-top: 50px;
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* Slider */
+    .c_item {
+        padding: 100px 0;
+    }
+
+    .slider {
+        min-height: 200px;
+    }
+
+    .slider_h1 {
+        font-size: 50px;
+    }
+
+    .slider_p {
+        padding: 30px 0;
+        line-height: 25px;
+    }
+
+    .ccn, .ccp {
+        width: 7%;
+    }
+
+    /* services */
+    .services_icon i {
+        left: 60px;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {}
