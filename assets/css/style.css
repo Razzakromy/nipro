@@ -165,7 +165,7 @@ header {
 
 .c_btn:hover {
     background-color: #333333;
-    color: #fff;
+    color: #fff !important;
 }
 
 .ccn, .ccp {
