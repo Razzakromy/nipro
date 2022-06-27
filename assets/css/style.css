@@ -258,25 +258,21 @@ header {
 }
 
 .services_icon {
-    position: absolute;
+    background: #fff;
+    width: 65px;
+    height: 65px;
+    margin: -21px auto 0;
 }
 
-.services_icon i {
-    position: relative;
-    left: 85px;
-    bottom: 27px;
+.services_icon i{
     font-size: 60px;
-    background: #fff;
-    width: 80px;
-    display: block;
-    padding: 0px 10px;
-    height: 0%;
 }
+
 
 .services_details {}
 
 .services_details h3 {
-    padding: 70px 0 20px;
+    padding: 40px 0 20px;
     font-size: 18px;
     font-weight: 700;
 }
