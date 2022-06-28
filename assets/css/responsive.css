@@ -54,13 +54,15 @@
     .c_btn i {
         padding-left: 5px;
     }
+
     .slider_indicators {
         left: 65px;
     }
+
     .ccn {
         left: 125px;
     }
-    
+
     .ccp {
         left: 30px;
     }
@@ -69,14 +71,17 @@
     .services {
         padding-bottom: 25px;
     }
+
     .heading_text h2 {
         font-size: 25px;
         padding-top: 30px;
     }
+
     .heading_text p {
         padding: 20px 0 40px;
         line-height: 22px;
     }
+
     .line {
         display: none;
     }
@@ -92,17 +97,56 @@
     .branding, .uiux, .app, .web {
         margin-top: 50px;
     }
+
     /* about */
-    .about {padding-bottom: 25px;}
-    .about_txt, .about_img{
+    .about {
+        padding-bottom: 25px;
+    }
+
+    .about_txt, .about_img {
         text-align: center;
     }
-   .about_img{
+
+    .about_img {
         margin-top: 25px;
     }
+
     .f_p {
         line-height: 22px !important;
     }
+
+    /* Recent */
+    .work_margin {
+        margin-top: 15px;
+    }
+
+    .nav_tabs {
+        padding-top: 30px;
+    }
+
+    .nav_pills li {
+        padding-right: 10px;
+    }
+
+    .nav_pills button {
+        padding: 2px 5px;
+    }
+
+    .pd_text h2 {
+        font-size: 15px;
+    }
+
+    .overlay_text i {
+        font-size: 30px;
+    }
+    .overlay_text {
+        transform: translate(-50%, -88%);
+        -webkit-transform: translate(-50%, -88%);
+        -moz-transform: translate(-50%, -88%);
+        -ms-transform: translate(-50%, -88%);
+        -o-transform: translate(-50%, -88%);
+}
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -147,10 +191,11 @@
     .slider_indicators {
         left: 65px;
     }
+
     .ccn {
         left: 125px;
     }
-    
+
     .ccp {
         left: 30px;
     }
@@ -159,15 +204,17 @@
     .services {
         padding-bottom: 50px;
     }
-    
+
     .heading_text h2 {
         font-family: 'lato', sans-serif;
         font-size: 25px;
     }
+
     .heading_text p {
         padding: 30px 0 60px;
         line-height: 22px;
     }
+
     .services_details h3 {
         padding: 15px 0 10px;
     }
@@ -179,17 +226,52 @@
     .app, .web {
         margin-top: 50px;
     }
+
     /* about */
-    .about {padding-bottom: 50px;}
-    .about_txt, .about_img{
+    .about {
+        padding-bottom: 50px;
+    }
+
+    .about_txt, .about_img {
         text-align: center;
     }
-   .about_img{
+
+    .about_img {
         margin-top: 25px;
     }
+
     .f_p {
         line-height: 25px !important;
     }
+
+    /* Recent */
+    .work_margin {
+        margin-top: 15px;
+    }
+
+    .nav_tabs {
+        padding-top: 30px;
+    }
+
+    .nav_pills li {
+        padding-right: 5px;
+    }
+
+    .pd_text h2 {
+        font-size: 16px;
+    }
+
+    .nav_pills button {
+        padding: 2px 5px;
+    }
+
+    .overlay_text {
+        transform: translate(-50%, -83%);
+        -webkit-transform: translate(-50%, -83%);
+        -moz-transform: translate(-50%, -83%);
+        -ms-transform: translate(-50%, -83%);
+        -o-transform: translate(-50%, -83%);
+}
 }
 
 
@@ -231,13 +313,15 @@
     .c_btn i {
         padding-left: 10px;
     }
+
     .slider_indicators {
         left: 65px;
     }
+
     .ccn {
         left: 125px;
     }
-    
+
     .ccp {
         left: 30px;
     }
@@ -246,10 +330,12 @@
     .services {
         padding-bottom: 80px;
     }
+
     .heading_text p {
         padding: 35px 0 70px;
         line-height: 25px;
     }
+
     .services_details h3 {
         padding: 20px 0 15px;
     }
@@ -261,16 +347,35 @@
     .app, .web {
         margin-top: 50px;
     }
+
     /* about */
-    .about {padding-bottom: 80px;}
-    .about_txt, .about_img{
+    .about {
+        padding-bottom: 80px;
+    }
+
+    .about_txt, .about_img {
         text-align: center;
     }
-   .about_img{
+
+    .about_img {
         margin-top: 25px;
     }
+
     .f_p {
         line-height: 25px !important;
+    }
+
+    /* Recent */
+    .nav_tabs {
+        padding-top: 40px;
+    }
+
+    .nav_pills li {
+        padding-right: 5px;
+    }
+
+    .pd_text h2 {
+        font-size: 16px;
     }
 
 }
@@ -291,20 +396,24 @@
         padding: 30px 0;
         line-height: 25px;
     }
+
     .slider_indicators {
         left: 65px;
     }
+
     .ccn {
         left: 125px;
     }
-    
+
     .ccp {
         left: 30px;
     }
-/* Services */
-.services_details h3 {
-    padding: 20px 0;
-}
+
+    /* Services */
+    .services_details h3 {
+        padding: 20px 0;
+    }
+
     /* About */
     .f_p {
         line-height: 25px !important;
