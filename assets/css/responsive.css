@@ -116,9 +116,10 @@
     }
 
     /* Recent */
-    .recent{
+    .recent {
         padding-bottom: 25px;
     }
+
     .work_margin {
         margin-top: 15px;
     }
@@ -142,41 +143,93 @@
     .overlay_text i {
         font-size: 30px;
     }
+
     .overlay_text {
         transform: translate(-50%, -88%);
         -webkit-transform: translate(-50%, -88%);
         -moz-transform: translate(-50%, -88%);
         -ms-transform: translate(-50%, -88%);
         -o-transform: translate(-50%, -88%);
-}
-/* why */
-.why{
-    padding-bottom: 25px;
-}
-.why .heading_text {
-    padding-bottom: 15px;
-}
-.why_margin{
-    margin-top: 20px;
-}
-.why_details.why_margin {
-    text-align: center;
-}
-.icon_title {
-    justify-content: center;
-}
-.icon_title i {
-    padding-right: 10px;
-    font-size: 30px;
-}
-.icon_title h3 {
-     font-size: 16px;
-}
+    }
 
-.why_details p{
-    padding: 15px 0;
-    line-height: 22px;
-}
+    /* why */
+    .why {
+        padding-bottom: 25px;
+    }
+
+    .why .heading_text, .who_work .heading_text {
+        padding-bottom: 15px;
+    }
+
+    .why_margin {
+        margin-top: 20px;
+    }
+
+    .why_details.why_margin {
+        text-align: center;
+    }
+
+    .icon_title {
+        justify-content: center;
+    }
+
+    .icon_title i {
+        padding-right: 10px;
+        font-size: 30px;
+    }
+
+    .icon_title h3 {
+        font-size: 16px;
+    }
+
+    .why_details p {
+        padding: 15px 0;
+        line-height: 22px;
+    }
+
+    /* who work */
+    .social_links {
+        top: 4%;
+    }
+
+    .social_links li a {
+        font-size: 16px;
+    }
+
+    /* prices */
+    .pricing {
+        padding-bottom: 25px;
+    }
+
+    .pricing .heading_text h2 {
+        padding-bottom: 10px;
+    }
+    .package_item {
+        padding: 20px 15px;
+    }
+    .s_margin_col, .ep_margin_sm {
+        margin-top: 30px;
+    }
+    .package_name {
+        margin-top: -32px;
+        padding: 0 5px;
+    }
+
+    .package_name h3 {
+        font-size: 16px;
+    }
+
+    .package_item p span {
+        font-size: 22px;
+    }
+
+    .package_item ul li {
+        padding: 5px 0;
+    }
+
+    .package_item p {
+        padding-top: 15px;
+    }
 
 }
 
@@ -276,9 +329,10 @@
     }
 
     /* Recent */
-    .recent{
+    .recent {
         padding-bottom: 50px;
     }
+
     .work_margin {
         margin-top: 15px;
     }
@@ -305,29 +359,72 @@
         -moz-transform: translate(-50%, -83%);
         -ms-transform: translate(-50%, -83%);
         -o-transform: translate(-50%, -83%);
-}
-/* why */
-.why{
-    padding-bottom: 50px;
-}
-.why .heading_text {
-    padding-bottom: 20px;
-}
-.why_margin{
-    margin-top: 20px;
-}
-.icon_title i {
-    padding-right: 10px;
-    font-size: 30px;
-}
-.icon_title h3 {
-     font-size: 16px;
-}
+    }
 
-.why_details p{
-    padding: 15px 0;
-    line-height: 25px;
-}
+    /* why */
+    .why {
+        padding-bottom: 50px;
+    }
+
+    .why .heading_text, .who_work .heading_text {
+        padding-bottom: 20px;
+    }
+
+    .why_margin {
+        margin-top: 20px;
+    }
+
+    .icon_title i {
+        padding-right: 10px;
+        font-size: 30px;
+    }
+
+    .icon_title h3 {
+        font-size: 16px;
+    }
+
+    .why_details p {
+        padding: 15px 0;
+        line-height: 25px;
+    }
+
+    /* Who Work */
+    .social_links {
+        top: 12%;
+    }
+
+    /* prices */
+    .pricing {
+        padding-bottom: 50px;
+    }
+
+    .pricing .heading_text h2 {
+        padding-bottom: 20px;
+    }
+    .package_item {
+        padding: 20px 15px;
+    }
+
+    .ep_margin_sm {
+        margin-top: 40px;
+    }
+
+    .package_name {
+        margin-top: -32px;
+        padding: 0 5px;
+    }
+
+    .package_item p span {
+        font-size: 22px;
+    }
+
+    .package_item ul li {
+        padding: 5px 0;
+    }
+
+    .package_item p {
+        padding-top: 15px;
+    }
 }
 
 
@@ -422,9 +519,10 @@
     }
 
     /* Recent */
-    .recent{
+    .recent {
         padding-bottom: 80px;
     }
+
     .nav_tabs {
         padding-top: 40px;
     }
@@ -436,29 +534,77 @@
     .pd_text h2 {
         font-size: 16px;
     }
+
     /* why */
-    .why{
+    .why {
         padding-bottom: 80px;
     }
-    .why .heading_text {
+
+    .why .heading_text, .who_work .heading_text {
         padding-bottom: 20px;
     }
-    .why_margin{
+
+    .why_margin {
         margin-top: 30px;
     }
+
     .icon_title i {
         padding-right: 10px;
         font-size: 30px;
     }
+
     .icon_title h3 {
-         font-size: 16px;
+        font-size: 16px;
     }
-    
-    .why_details p{
+
+    .why_details p {
         padding: 15px 0;
         line-height: 25px;
     }
 
+    /* who work */
+    .social_links {
+        top: 9%;
+    }
+
+    .social_links li a {
+        font-size: 16px;
+    }
+
+    /* prices */
+    .pricing {
+        padding-bottom: 80px;
+    }
+
+    .pricing .heading_text h2 {
+        padding-bottom: 20px;
+    }
+
+    .package_item {
+        padding: 20px 15px;
+    }
+
+    .package_item .ep_margin_sm {
+        margin-top: 40px !important;
+    }
+
+    .package_item ul li {
+        padding: 5px 0;
+    }
+
+    .package_item p {
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    .package_item p span {
+        font-size: 18px;
+    }
+
+    .package_name {
+        margin-top: -32px;
+        padding: 0 5px;
+    }
 
 }
 
@@ -500,10 +646,37 @@
     .f_p {
         line-height: 25px !important;
     }
+
+    /* Who Work */
+    .social_links {
+        top: 11%;
+    }
+
+    .social_links li a {
+        font-size: 21px;
+    }
+
+    /* prices */
+
+    .package_item {
+        padding: 30px 15px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1399.98px) {}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /* who work */
+    .person_txt {
+        width: 98%;
+    }
+}
 
 /* Extra Extra large devices (Extra large desktops, 1400px and up) */
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+
+    /* who work */
+    .person_txt {
+        width: 83.5%;
+    }
+}
