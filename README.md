@@ -1,3 +1,3 @@
 # niproAgency
  
-live link: https://razzakromy.github.io/niproAgency
+live link: https://razzakromy.github.io/nipro
